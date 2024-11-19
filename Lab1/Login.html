@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/home.html">Home</a>
+            <a href="/aboutMe.html">About me</a>
+            <a href="/Register.html">Register</a>
+            <a href="/Login.html" class="active">Login</a>
+            <a href="/contactdetails.html">Contact me</a>
+        </nav>
+    </header>
+
+    <section class="login">
+        <div class="wrapper">
+            <form action="/home.html">
+                <h1>Login</h1>
+
+                <div class="input-box">
+
+                    <div class="input-field">
+                        <input type="text" placeholder="Username" required>
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+
+                </div>
+                <label><input type="checkbox">Remember me</label>
+                <button type="submit" class="btn">Login</button>
+                <label>Don't Have an account?<a href="/Register.html">Register</a></label>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text"></div>
+        <p>Copyright &copy; 2024 by L.P.S | <a href="mailto:shinyalaluispeter@gmail.com" target="_blank">Send Email</a>
+        </p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
